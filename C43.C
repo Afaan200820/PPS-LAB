@@ -6,7 +6,7 @@ int main ()
     printf("enter two numbers:");
     scanf("%d %d",&a,&b);
     printf("\nEnter an operator(+,-,*,/,%%):");
-    scanf("%c",&choice);
+    scanf( "%c",&choice);
     switch(choice)
     {
     case'+':
